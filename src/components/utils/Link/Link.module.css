@@ -1,0 +1,10 @@
+.link {
+  width: 100%;
+  display: block;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0px;
+  cursor: pointer;
+}

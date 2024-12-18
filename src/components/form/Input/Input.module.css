@@ -1,0 +1,23 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1rem;
+  margin: 20px 0px;
+}
+
+.inputBox > label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.inputBox > input {
+  padding: 11px;
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+}
+
+.inputBox > input::placeholder {
+  color: gray;
+  letter-spacing: 1px;
+}
