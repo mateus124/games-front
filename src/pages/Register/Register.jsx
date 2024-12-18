@@ -8,7 +8,9 @@ function Register() {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <img src={logo} alt="Logotipo" />
+        <div className={styles.image}>
+          <img src={logo} alt="Logotipo" />
+        </div>
         <form className={styles.form}>
           <Inputbox
             type="text"

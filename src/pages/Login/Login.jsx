@@ -8,8 +8,10 @@ function Login() {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <img src={logo} alt="logo pixel games" />
-        <p>É bom ter você aqui de novo.</p>
+        <div className={styles.image}>
+          <img src={logo} alt="logo pixel games" />
+        </div>
+        <p className={styles.text}>É bom ter você aqui de novo.</p>
         <form action="" className={styles.form}>
           <Inputbox
             type="email"

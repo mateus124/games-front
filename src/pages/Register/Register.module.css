@@ -17,10 +17,20 @@
   height: 100vh;
   background-image: url("../../assets/images/bg-register.png");
   background-size: cover;
+  background-position: center center;
 }
 
 .form {
   width: 100%;
   max-width: 400px;
   padding: 0px 30px;
+}
+
+.image {
+  width: 200px;
+  margin: 20px 0px;
+}
+
+.image img {
+  width: 100%;
 }

@@ -24,3 +24,17 @@
   max-width: 400px;
   padding: 0px 30px;
 }
+
+.image {
+  width: 200px;
+  margin: 20px 0px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.text {
+  margin: 10px 0px;
+  font-size: 1.1rem;
+}
